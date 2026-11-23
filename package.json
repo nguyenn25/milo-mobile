@@ -27,7 +27,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "deploy": "npx expo export -p web && gh-pages -d dist -t true"
+    "deploy": "npx expo export -p web && gh-pages -d dist --dotfiles"
   },
   "private": true
 }
